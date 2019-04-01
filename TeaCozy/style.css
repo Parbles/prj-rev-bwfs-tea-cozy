@@ -1,0 +1,182 @@
+/*Universal Styles*/
+html, body {
+  font-family: 'Helvetica';
+  background-color: black;
+  font-weight: bold;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+}
+
+a {
+  color: seashell;
+}
+/*Header*/
+header{
+  display: flex;
+  align-items:center;
+  position:fixed;
+  width:100%;
+  height:69px;
+  border-bottom:1px solid seashell;
+  background-color:black;
+  z-index: 1;
+}
+
+.logo {
+display: flex;
+align-items: center;
+padding-left: 10px;
+flex-grow: 1;
+}
+
+.logo img{
+  height: 50px;
+  opacity: 0.9;
+}
+
+header nav{
+  padding-right: 10px;
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav span{
+  display: inline-block;
+  font-size: 22px;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+/*Main Content*/
+
+.content{
+  display: flex;
+  margin-top: 0;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding-left: 20px;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*Our Mission*/
+
+.Our-Mission-Image {
+  display: flex;
+  height: 700px;
+  width: 1200px;
+  background-color: black;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: center;
+  justify-content: center;
+  padding: 70px 20px;
+}
+
+.Our-Mission {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  margin: auto;
+}
+
+/*Tea of the Month*/
+
+.Tea-Of-The-Month .Steeping {
+display: flex;
+padding-top: 100px;
+flex-direction: column;
+align-items: center;
+position: relative;
+width: 1000px;
+margin: auto;
+}
+
+.Teas {
+  display: flex;
+  position: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  padding-bottom: 70px;
+}
+
+
+.Images {
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+}
+
+.Images span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+
+/*Locations Section*/
+
+
+#locations {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 500px;
+width: 1200px;
+display: flex;
+flex-direction: column;
+}
+
+.Locations-Box {
+display: flex;
+justify-content: center;
+}
+
+.Location {
+  opacity: 1.0;
+  display: flex;
+  width: 300px;
+  margin: 20px;
+  flex-direction: row;
+  position: center;
+  background-color: black;
+  font-size: 22px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Location, p {
+  flex-direction: column;
+}
+
+/*Footer*/
+
+footer {
+  display: block;
+  height: 200px;
+}
+
+footer .title {
+  display: flex;
+flex-direction: column;
+background-color: black;
+justify-content: center;
+align-items: center;
+}
+
+.copyright {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
